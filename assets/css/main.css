@@ -5201,3 +5201,93 @@ body {
     color: #fff;
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
+
+
+/* Hello*/
+
+#coursework {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto
+}
+
+@media only screen and (min-width:550px) {
+    #coursework {
+        width: 80%
+    }
+}
+
+.user-coursework {
+    margin: 20px auto
+}
+
+.user-coursework img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px
+}
+
+.user-coursework h5,
+body {
+    margin: 0
+}
+
+.user-coursework li {
+    color: #1a222c;
+    font-size: 1.1rem
+}
+
+.user-coursework p {
+    margin-right: 5px
+}
+
+@media only screen and (min-width:550px) {
+    .contents {
+        margin-left: 0;
+        width: 48%
+    }
+    .contents-right {
+        margin-top: -5%
+    }
+    .contents-right,
+    .images-right {
+        float: right;
+        width: 48%
+    }
+    .images-right img {
+        float: right
+    }
+    .images-left {
+        float: left;
+        width: 48%
+    }
+    .images-left img {
+        float: left
+    }
+}
+
+.coursework-link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px;
+    color: #1a222c;
+    background-color: transparent;
+    border: 1px solid #1a222c;
+    border-radius: 10px;
+    text-align: center;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
+}
+
+.coursework-link:active,
+.coursework-link:hover {
+    background-color: #54516a;
+    border-color: #54516a;
+    color: #fff;
+    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
+}
